@@ -1,0 +1,112 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Action Buttons */
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.btn-add, .btn-delete {
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Product Grid Layout */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* 4 columns */
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Product Card Styles */
+.product-card {
+    background-color: white;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.product-card input[type="checkbox"] {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.product-card p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.product-card .sku {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-card .product-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-card .price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-card .attribute {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+
+hr { border: none;
+    border-top: 2px solid black;
+    margin: 0 auto;
+    max-width: 1800px;}
+
+
